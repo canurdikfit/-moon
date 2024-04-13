@@ -1,0 +1,229 @@
+Command,Exit description,Execution Time,Intended Timeout, MAX RSS (MB)
+"/usr/sbin/spindump -oslog -noSymbolicate -file /private/var/tmp/IN_PROGRESS_sysdiagnose_2024.04.11_12-31-56+0100_macOS_MacBookPro16-3_23E224.tmp/spindump/spindump-nosymbols.txt","exited with status 0",15.531957,30.000000,69.917969
+
+Concurrent group with total timeout 40.000000 sec
+"/bin/ps axwww -o user,uid,prsna,pid,ppid,flags,%cpu,%mem,pri,ni,vsz,rss,wchan,tt,stat,start,time,command","exited with status 0",0.116470,40.000000,1.781250
+"/bin/ps axMwww -o ppid,flags,%mem,pri,ni,vsz,rss,wchan,start,time,command","exited with status 0",0.116799,40.000000,1.738281
+"/usr/bin/top -l9 -d -r","exited with status 0",11.735195,40.000000,4.261719
+"/usr/bin/vm_stat -c 50 0.2","exited with status 0",9.922644,40.000000,0.484375
+"/usr/bin/taskinfo --threads --boosts","exited with status 0",0.120040,40.000000,4.265625
+
+"/System/Library/Frameworks/IOBluetooth.framework/Resources/BluetoothReporter --dumpPacketLog /private/var/tmp/IN_PROGRESS_sysdiagnose_2024.04.11_12-31-56+0100_macOS_MacBookPro16-3_23E224.tmp/unnamed_tasks_sysdiagnose_temp.3oY8Pc/unnamed_tasks/BluetoothTraceFile.pklg","exited with status 0",0.055859,10.000000,13.039062
+"/System/Library/PrivateFrameworks/SkyLight.framework/Resources/WSInfo","exited with status 0",0.161705,25.000000,1.859375
+
+Concurrent group with total timeout 38.000000 sec
+"/sbin/mount","exited with status 0",0.032968,38.000000,1.144531
+"/bin/df -H","exited with status 0",0.030829,38.000000,0.542969
+"/usr/bin/zprint -t -w","exited with status 0",0.503293,38.000000,5.875000
+
+"/usr/libexec/smcDiagnose","exited with status 0",1.041242,15.000000,1.972656
+"/usr/bin/footprint -w -a --minFootprint 15","exited with status 0",1.687418,180.000000,65.011719
+"/usr/bin/powermetrics -i 1000 -n 1 --show-all --show-initial-usage","exited with status 0",1.915961,10.000000,7.417969
+"/usr/bin/mddiagnose -m -n -w -f /private/var/tmp/IN_PROGRESS_sysdiagnose_2024.04.11_12-31-56+0100_macOS_MacBookPro16-3_23E224.tmp/unnamed_tasks_sysdiagnose_temp.Anq3l4/unnamed_tasks","exited with status 0",8.062091,10.000000,5.066406
+"/usr/libexec/remotectl dumpstate","exited with status 0",0.031687,5.000000,1.488281
+"/usr/bin/nclist -v","exited with status 0",0.078500,5.000000,1.144531
+
+Concurrent group with total timeout 5.000000 sec
+"/usr/bin/nfsstat -m","exited with status 0",0.086565,5.000000,1.109375
+"/System/Library/PrivateFrameworks/Apple80211.framework/Resources/airport --getinfo","exited with status 0",0.077662,5.000000,1.453125
+
+"/bin/bash -c set -x;/bin/ls -atlT /System/Library/Caches/com.apple.bootstamps/*;/bin/ls -ctlT /System/Library/Caches/com.apple.bootstamps/*;/bin/ls -lTd /System/Library/PrelinkedKernels /System/Library/PrelinkedKernels/prelinkedkernel*;/usr/bin/uname -v;/bin/ls -lT /System/Library/Kernels;/bin/ls -lTd /System/Library/Extensions /Library/Extensions;/bin/ls -ltdT /System/Library/PrivateFrameworks/EFILogin.framework/Resources/EFIResourceBuilder.bundle/Contents/Resources /Library/Preferences/.GlobalPreferences.plist /Library/Caches/com.apple.desktop.admin.png;/bin/ls -cltdT $(/bin/ls /System/Library/Caches/com.apple.bootstamps/* | /usr/bin/sed 's!:!/!g')","exited with status 0",0.503695,40.000000,0.902344
+
+Concurrent group with total timeout 15.000000 sec
+"/usr/sbin/sysctl -a","exited with status 0",0.760385,15.000000,0.609375
+"/usr/sbin/nvram -p","exited with status 0",0.020607,15.000000,1.261719
+"/usr/bin/sw_vers","exited with status 0",0.111371,15.000000,2.261719
+
+"/usr/libexec/corebrightnessdiag nightshift-internal","exited with status 0",0.081927,5.000000,3.667969
+"/System/Library/Filesystems/apfs.fs/Contents/Resources/apfs_stats","exited with status 0",0.021149,3.000000,1.574219
+"/bin/bash -c /usr/bin/csrutil status | /usr/bin/grep 'System Integrity Protection'","exited with status 0",0.066207,5.000000,1.535156
+"/usr/sbin/xartutil --list","exited with status 0",0.014651,5.000000,1.148438
+"/Library/Apple/usr/bin/dzctl --info",Never got executed,0.00,5.000000
+"/usr/libexec/applessdstatistics --sdxc","exited with status 0",0.016496,2.000000,1.179688
+"/System/Library/PrivateFrameworks/IOSurfaceAccelerator.framework/Resources/IOSADiagnose","exited with status 1",0.016060,5.000000,1.144531
+"/usr/bin/cryptexctl dumpstate",Never got executed,0.00,2.000000
+"/usr/libexec/atcrtcomm /private/var/tmp/IN_PROGRESS_sysdiagnose_2024.04.11_12-31-56+0100_macOS_MacBookPro16-3_23E224.tmp/atcrtcomm_sysdiagnose_temp.ikm30F/atcrtcomm","exited with status 0",0.000000,5.000000,0.000000
+"/System/Library/CoreServices/loginwindow.app/Contents/Resources/lwdumplog -sysdiagnose -d /private/var/tmp/IN_PROGRESS_sysdiagnose_2024.04.11_12-31-56+0100_macOS_MacBookPro16-3_23E224.tmp/loginwindow_sysdiagnose_temp.r7VQio/loginwindow","exited with status 0",0.105673,5.000000,1.105469
+
+Concurrent group with total timeout 10.000000 sec
+"/bin/launchctl asuser 0 /bin/launchctl list","exited with status 0",0.053133,10.000000,0.687500
+"/bin/launchctl print system/","exited with status 0",0.009778,10.000000,0.703125
+"/bin/launchctl dumpstate","exited with status 0",0.394702,10.000000,4.957031
+
+"/usr/bin/odutil show all","exited with status 0",2.122585,10.000000,3.421875
+"/bin/launchctl asuser 501 /usr/sbin/otctl status --json","exited with status 0",0.464236,3.000000,4.406250
+"/usr/bin/uptime","exited with status 0",0.386489,5.000000,0.703125
+"/usr/bin/umtool sysdiagnose","exited with status 0",0.344006,5.000000,1.792969
+"/usr/sbin/bless --info","exited with status 2",0.479644,5.000000,2.042969
+"/System/Library/PrivateFrameworks/SharedWebCredentials.framework/Support/swcutil show --verbose","exited with status 1",0.495157,5.000000,1.781250
+"/usr/bin/systemextensionsctl diagnose","exited with status 0",0.465909,5.000000,1.335938
+
+Concurrent group with total timeout 1.000000 sec
+"/usr/bin/psm status","exited with status 188",0.018580,1.000000,1.203125
+"/usr/bin/psm list","exited with status 0",0.414408,1.000000,1.296875
+
+"/usr/bin/usbdiagnose","exited with status 0",0.539970,1.000000,3.105469
+"/System/Library/Extensions/AppleGraphicsControl.kext/Contents/MacOS/DisplayDiagnose","exited with status 0",0.697065,5.000000,3.601562
+
+Concurrent group with total timeout 5.000000 sec
+"/usr/sbin/nvram 94b73556-2197-4702-82a8-3e1337dafbfb:ApChipID","exited with status 0",0.058605,5.000000,1.156250
+"/usr/sbin/nvram 94b73556-2197-4702-82a8-3e1337dafbfb:ApBoardID","exited with status 0",0.021737,5.000000,1.089844
+"/usr/sbin/nvram 94b73556-2197-4702-82a8-3e1337dafbfb:ApSecurityDomain","exited with status 0",0.015806,5.000000,1.113281
+"/usr/sbin/nvram 94b73556-2197-4702-82a8-3e1337dafbfb:ApProductionStatus","exited with status 0",0.013354,5.000000,1.144531
+"/usr/sbin/nvram 94b73556-2197-4702-82a8-3e1337dafbfb:ApSecurityMode","exited with status 0",0.020040,5.000000,1.195312
+"/usr/sbin/nvram 94b73556-2197-4702-82a8-3e1337dafbfb:EffectiveProductionStatus","exited with status 0",0.078780,5.000000,1.109375
+"/usr/sbin/nvram 94b73556-2197-4702-82a8-3e1337dafbfb:EffectiveSecurityMode","exited with status 0",0.019106,5.000000,1.144531
+"/usr/sbin/nvram 94b73556-2197-4702-82a8-3e1337dafbfb:HardwareModel","exited with status 0",0.013536,5.000000,1.089844
+"/usr/sbin/nvram 94b73556-2197-4702-82a8-3e1337dafbfb:InternalUseOnlyUnit","exited with status 1",0.013488,5.000000,1.164062
+"/usr/sbin/nvram 94b73556-2197-4702-82a8-3e1337dafbfb:AppleSecureBootPolicy","exited with status 0",0.090976,5.000000,1.109375
+"/usr/sbin/nvram 94b73556-2197-4702-82a8-3e1337dafbfb:AppleSecureBootFailureReason","exited with status 0",0.016037,5.000000,1.125000
+"/usr/sbin/nvram 94b73556-2197-4702-82a8-3e1337dafbfb:AppleSecureBootWindowsPolicy","exited with status 0",0.099343,5.000000,1.160156
+"/usr/sbin/nvram 94b73556-2197-4702-82a8-3e1337dafbfb:AppleSecureBootWindowsFailureReason","exited with status 1",0.297797,5.000000,1.144531
+"/usr/sbin/nvram 5eeb160f-45fb-4ce9-b4e3-610359abf6f8:StartupManagerPolicy","exited with status 0",0.017080,5.000000,1.109375
+"/usr/sbin/nvram 5eeb160f-45fb-4ce9-b4e3-610359abf6f8:StartupManagerFailureReason","exited with status 0",0.011927,5.000000,1.164062
+"/usr/sbin/nvram 5eeb160f-45fb-4ce9-b4e3-610359abf6f8:AppleFailedBootPolicy","exited with status 1",0.008813,5.000000,1.097656
+"/usr/sbin/nvram 5eeb160f-45fb-4ce9-b4e3-610359abf6f8:AppleFailedBootVolumeUUID","exited with status 0",0.010935,5.000000,1.089844
+
+
+Concurrent group with total timeout 5.000000 sec
+"/bin/launchctl asuser 501 /usr/bin/sfltool list-info -d com.apple.LSSharedFileList.FavoriteItems","exited with status 0",0.814938,5.000000,5.851562
+"/bin/launchctl asuser 501 /usr/bin/sfltool list-info -d com.apple.LSSharedFileList.FavoriteVolumes","exited with status 0",0.043640,5.000000,4.531250
+"/bin/launchctl asuser 501 /usr/bin/sfltool list-info -d com.apple.LSSharedFileList.iCloudItems","exited with status 0",0.059152,5.000000,4.714844
+
+
+Concurrent group with total timeout 5.000000 sec
+"/System/Library/PrivateFrameworks/RemoteManagement.framework/rmdinspect report --scope system","exited with status 0",0.659833,5.000000,9.601562
+"/System/Library/PrivateFrameworks/RemoteManagement.framework/rmdinspect report --scope user","exited with status 0",0.162609,5.000000,9.640625
+
+
+Concurrent group with total timeout 10.000000 sec
+"/System/Library/PrivateFrameworks/CoreSuggestions.framework/Tools/suggest_tool dbStats","exited with status 8",0.516956,10.000000,2.937500
+"/System/Library/PrivateFrameworks/CoreSuggestions.framework/Tools/suggest_tool filesystemMetadata","exited with status 8",0.056135,10.000000,2.941406
+"/System/Library/PrivateFrameworks/CoreSuggestions.framework/Tools/suggest_tool dbSchema","exited with status 8",0.025199,10.000000,2.898438
+"/System/Library/PrivateFrameworks/CoreSuggestions.framework/Tools/suggest_tool assetVersion","exited with status 0",0.089377,10.000000,4.378906
+"/System/Library/PrivateFrameworks/CoreSuggestions.framework/Tools/suggest_tool RTCGetDictionaryExtractions","exited with status 1",0.025322,10.000000,2.933594
+"/System/Library/PrivateFrameworks/CoreSuggestions.framework/Tools/suggest_tool RTCGetDictionaryInteractions","exited with status 1",0.023686,10.000000,2.921875
+"/System/Library/PrivateFrameworks/CoreSuggestions.framework/Tools/suggest_tool RTCGetDictionaryInteractionsSummary","exited with status 1",0.026798,10.000000,2.945312
+
+"/System/Library/Extensions/IOGraphicsFamily.kext/iogdiagnose","exited with status 0",1.022395,5.000000,3.273438
+"/bin/launchctl asuser 501 /usr/sbin/ckksctl status --json","exited with status 0",1.303536,3.000000,6.703125
+"/bin/launchctl asuser 501 /usr/libexec/transparency-sysdiagnose","exited with status 0",1.126654,3.000000,7.878906
+
+Concurrent group with total timeout 10.000000 sec
+"/usr/bin/tbtdiagnose","exited with status 0",3.221082,10.000000,2.300781
+"/usr/bin/hpmdiagnose","exited with status 0",3.030338,10.000000,2.132812
+
+"/usr/bin/brctl diagnose --sysdiagnose /private/var/tmp/clouddocs_2024.04.11_12-31-56+0100","exited with status 0",1.920341,30.000000,10.156250
+
+Concurrent group with total timeout 15.000000 sec
+"/usr/sbin/system_profiler SPSerialATADataType -xml -timeout 10","exited with status 0",0.723575,15.000000,4.394531
+"/usr/sbin/system_profiler SPNVMeDataType -xml -timeout 10","exited with status 0",1.047286,15.000000,5.539062
+"/usr/sbin/system_profiler SPHardwareDataType -xml -timeout 10","exited with status 0",0.990481,15.000000,6.484375
+"/usr/sbin/system_profiler SPSoftwareDataType -xml -timeout 10","exited with status 0",1.088359,15.000000,7.082031
+"/usr/sbin/system_profiler SPAirPortDataType -xml -timeout 10","exited with status 0",3.462879,15.000000,10.503906
+"/usr/sbin/system_profiler SPParallelATADataType -xml -timeout 10","exited with status 0",0.466778,15.000000,4.363281
+"/usr/sbin/system_profiler SPBluetoothDataType -xml -timeout 10","exited with status 0",1.082071,15.000000,4.804688
+"/usr/sbin/system_profiler SPDiagnosticsDataType -xml -timeout 10","exited with status 0",0.709282,15.000000,4.441406
+"/usr/sbin/system_profiler SPEthernetDataType -xml -timeout 10","exited with status 0",1.089765,15.000000,4.425781
+"/usr/sbin/system_profiler SPFibreChannelDataType -xml -timeout 10","exited with status 0",1.087947,15.000000,4.394531
+"/usr/sbin/system_profiler SPFireWireDataType -xml -timeout 10","exited with status 0",1.084021,15.000000,4.371094
+"/usr/sbin/system_profiler SPFirewallDataType -xml -timeout 10","exited with status 0",1.046190,15.000000,5.148438
+"/usr/sbin/system_profiler SPNetworkLocationDataType -xml -timeout 10","exited with status 0",1.066764,15.000000,5.015625
+"/usr/sbin/system_profiler SPManagedClientDataType -xml -timeout 10","exited with status 0",0.710554,15.000000,4.378906
+"/usr/sbin/system_profiler SPMemoryDataType -xml -timeout 10","exited with status 0",1.074222,15.000000,4.800781
+"/usr/sbin/system_profiler SPNetworkDataType -xml -timeout 10","exited with status 0",1.145990,15.000000,5.578125
+"/usr/sbin/system_profiler SPPowerDataType -xml -timeout 10","exited with status 0",0.878047,15.000000,4.808594
+"/usr/sbin/system_profiler SPPCIDataType -xml -timeout 10","exited with status 0",1.054710,15.000000,4.386719
+"/usr/sbin/system_profiler SPUSBDataType -xml -timeout 10","exited with status 0",0.826343,15.000000,4.527344
+"/usr/sbin/system_profiler SPNetworkVolumeDataType -xml -timeout 10","exited with status 0",0.778976,15.000000,4.378906
+"/usr/sbin/system_profiler SPDisplaysDataType -xml -timeout 10","exited with status 0",1.046834,15.000000,8.062500
+"/usr/sbin/system_profiler SPThunderboltDataType -xml -timeout 10","exited with status 0",0.865262,15.000000,5.886719
+"/usr/sbin/system_profiler SPPrintersSoftwareDataType -xml -timeout 10","exited with status 0",4.212561,15.000000,12.031250
+"/usr/sbin/system_profiler SPPrintersDataType -xml -timeout 10","exited with status 0",1.066218,15.000000,5.644531
+"/usr/sbin/system_profiler SPAudioDataType -xml -timeout 10","exited with status 0",0.823718,15.000000,5.320312
+"/usr/sbin/system_profiler SPDeveloperToolsDataType -xml -timeout 10","exited with status 0",0.992410,15.000000,6.816406
+"/usr/sbin/system_profiler SPiBridgeDataType -xml -timeout 10","exited with status 0",0.992248,15.000000,4.601562
+"/usr/sbin/system_profiler SPConfigurationProfileDataType -xml -timeout 10","exited with status 0",1.041766,15.000000,5.519531
+
+
+Concurrent group with total timeout 5.000000 sec
+"/bin/launchctl asuser 501 /usr/bin/fileproviderctl dump --limit-dump-size -o /private/var/tmp/IN_PROGRESS_sysdiagnose_2024.04.11_12-31-56+0100_macOS_MacBookPro16-3_23E224.tmp/unnamed_tasks_sysdiagnose_temp.dHKxfd/unnamed_tasks/fileproviderctl_dump.log","exited with status 0",1.435798,5.000000,4.070312
+"/bin/launchctl asuser 501 /usr/bin/fileproviderctl check -v -o /private/var/tmp/IN_PROGRESS_sysdiagnose_2024.04.11_12-31-56+0100_macOS_MacBookPro16-3_23E224.tmp/unnamed_tasks_sysdiagnose_temp.dHKxfd/unnamed_tasks/fileproviderctl_check.log","exited with status 65",1.295081,5.000000,4.726562
+
+
+Concurrent group with total timeout 30.000000 sec
+"/usr/sbin/diskutil list","exited with status 0",0.506667,30.000000,5.062500
+"/usr/sbin/diskutil cs list","exited with status 0",0.136792,30.000000,3.511719
+"/usr/sbin/diskutil apfs list","exited with status 0",1.356349,30.000000,6.410156
+"/usr/sbin/diskutil apfs listUsers /","exited with status 0",0.784868,30.000000,4.914062
+"/usr/sbin/diskutil info -all","exited with status 0",5.531249,30.000000,8.765625
+"/usr/sbin/diskutil listClients","exited with status 0",0.211238,30.000000,4.125000
+"/usr/sbin/diskutil apfs listSnapshots /","exited with status 0",0.364414,30.000000,4.550781
+"/bin/bash -c /usr/sbin/diskutil list | /usr/bin/grep GUID_partition_scheme | /usr/bin/grep -o -E disk[0-9]+ | /usr/bin/xargs -I {} /bin/sh -c "/usr/sbin/gpt -rvvvv show /dev/{} ; /bin/echo '*********************' "","exited with status 0",0.523884,30.000000,5.121094
+"/usr/bin/find -x -E /dev -regex /dev/disk[0-9]+ -exec /usr/bin/hdiutil pmap -complete -uuids {} ;","exited with status 1",0.894766,30.000000,4.082031
+"/usr/sbin/BootCacheControl statistics","exited with status 0",0.031510,30.000000,1.164062
+"/usr/bin/dmc status / -json","exited with status 0",0.028104,30.000000,1.085938
+
+
+Concurrent group with total timeout 5.000000 sec
+"/usr/bin/find -s -x /System/Volumes/Preboot -depth -1 -name Cryptexes -prune -or -depth 2 -name PreLoginData -prune -or -ls","exited with status 1",4.054381,5.000000,1.375000
+"/usr/bin/find -s -x /System/Volumes/Update -ls","exited with status 1",0.336749,5.000000,0.691406
+
+
+Concurrent group with total timeout 55.000000 sec
+"/bin/cat ~/Library/Logs/fsck_hfs.log","exited with status 1",0.024032,55.000000,0.480469
+"/bin/launchctl asuser 501 /bin/launchctl list","exited with status 0",0.066020,55.000000,0.855469
+"/bin/launchctl print user/501","exited with status 0",0.016954,55.000000,0.734375
+"/bin/launchctl print gui/501","exited with status 0",0.010798,55.000000,0.761719
+"/bin/launchctl asuser 501 /System/Library/CoreServices/talagent -winfo","exited with status 0",0.037655,55.000000,2.609375
+"/bin/launchctl asuser 501 /System/Library/CoreServices/talagent -casinfo","exited with status 0",0.084394,55.000000,3.343750
+"/bin/launchctl asuser 501 /usr/bin/pluginkit -m -D --raw","exited with status 0",4.325233,55.000000,12.824219
+"/bin/launchctl asuser 501 /System/Library/Frameworks/Accounts.framework/Versions/A/Support/acdiagnose","exited with status 0",0.022648,55.000000,1.542969
+
+"/usr/sbin/spindump -oslog -microstackshots_only -microstackshots_save -microstackshots_datastore /private/var/tmp/IN_PROGRESS_sysdiagnose_2024.04.11_12-31-56+0100_macOS_MacBookPro16-3_23E224.tmp/unnamed_tasks_sysdiagnose_temp.yr2S2n/unnamed_tasks/microstackshots -microstackshots_starttime 1712575916 -microstackshots_endtime 1712835116","exited with status 0",5.237771,45.000000,3.882812
+"/usr/libexec/efi-dump-logs -c 5000000","exited with status 0",4.822968,5.000000,5.281250
+
+Concurrent group with total timeout 80.000000 sec
+"/usr/bin/lsappinfo sysdiagnose","exited with status 0",0.119153,80.000000,1.945312
+"/System/Library/PrivateFrameworks/ApplePushService.framework/apsctl status","exited with status 0",0.103142,80.000000,2.011719
+"/usr/bin/find /Library/SystemMigration/History","exited with status 0",0.037984,80.000000,0.531250
+"/usr/bin/thermal config","exited with status 0",0.044784,80.000000,1.261719
+"/usr/bin/codecctl -c 1 -a","exited with status 0",0.031876,80.000000,1.421875
+"/bin/launchctl asuser 501 /usr/libexec/security-sysdiagnose","exited with status 0",3.535112,80.000000,14.898438
+"/bin/launchctl asuser 501 /usr/libexec/pcsstatus --json capture output","exited with status 0",6.038556,80.000000,6.921875
+"/usr/bin/hidutil dump","exited with status 0",0.101009,80.000000,2.535156
+
+"/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/Resources/get-network-info -c /private/var/tmp/IN_PROGRESS_sysdiagnose_2024.04.11_12-31-56+0100_macOS_MacBookPro16-3_23E224.tmp/network-info_sysdiagnose_temp.CxNILv/network-info","exited with status 0",8.257724,100.000000,3.125000
+"/usr/bin/kmutil diagnose","exited with status 0",7.066084,5.000000,29.242188
+"/usr/bin/sample 137 2 -f /private/var/tmp/IN_PROGRESS_sysdiagnose_2024.04.11_12-31-56+0100_macOS_MacBookPro16-3_23E224.tmp/unnamed_tasks_sysdiagnose_temp.dDA5GX/unnamed_tasks/sample-137-highcpu.txt","exited with status 0",3.384209,4.000000,14.300781
+
+Concurrent group with total timeout 10.000000 sec
+"/usr/sbin/ioreg -i -l -p IOService -w 0","exited with status 0",4.713133,10.000000,5.074219
+"/usr/sbin/ioreg -i -l -p IOACPIPlane -w 0","exited with status 0",0.062434,10.000000,2.460938
+"/usr/sbin/ioreg -i -l -p IOPower -w 0","exited with status 0",0.842248,10.000000,3.820312
+"/usr/sbin/ioreg -i -l -p IODeviceTree -w 0","exited with status 0",0.064651,10.000000,2.375000
+"/usr/sbin/ioreg -i -l -p IOUSB -w 0","exited with status 0",0.024264,10.000000,2.351562
+"/usr/sbin/ioreg -i -l -p IOFireWire -w 0","exited with status 0",0.021925,10.000000,2.351562
+"/usr/sbin/ioreg -i -l -p IOPort -w 0","exited with status 0",0.021133,10.000000,2.332031
+"/usr/sbin/ioreg -a -l -w0 -x 0","exited with status 0",4.242941,10.000000,20.453125
+
+"/usr/bin/sample 1405 2 -f /private/var/tmp/IN_PROGRESS_sysdiagnose_2024.04.11_12-31-56+0100_macOS_MacBookPro16-3_23E224.tmp/unnamed_tasks_sysdiagnose_temp.YmoWR3/unnamed_tasks/sample-1405-highcpu.txt","exited with status 0",4.627396,4.000000,31.101562
+"/usr/bin/sample 1392 2 -f /private/var/tmp/IN_PROGRESS_sysdiagnose_2024.04.11_12-31-56+0100_macOS_MacBookPro16-3_23E224.tmp/unnamed_tasks_sysdiagnose_temp.iUI8Ng/unnamed_tasks/sample-1392-highcpu.txt","exited with status 0",4.648259,4.000000,30.621094
+"/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -bdump","exited with status 0",26.950641,80.000000,201.605469
+"/System/Library/Frameworks/CoreServices.framework/Frameworks/LaunchServices.framework/Support/lsregister -bdump","exited with status 0",27.502535,60.000000,201.468750
+
+Concurrent group with total timeout 10.000000 sec
+"/usr/sbin/kextstat","exited with status 0",3.483610,10.000000,12.421875
+"/usr/bin/pmset -g everything","exited with status 0",29.717803,10.000000,83.007812
+
+
+Concurrent group with total timeout 50.000000 sec
+"/usr/sbin/spindump -oslog -i /private/var/tmp/IN_PROGRESS_sysdiagnose_2024.04.11_12-31-56+0100_macOS_MacBookPro16-3_23E224.tmp/tailspin-save/tailspin-trace-unsymbolicated.tailspin -inspectLiveSystem -noSymbolicate -file /private/var/tmp/IN_PROGRESS_sysdiagnose_2024.04.11_12-31-56+0100_macOS_MacBookPro16-3_23E224.tmp/spindump/tailspin-spindump.txt","exited with status 66",0.017997,50.000000,2.523438
+"/usr/sbin/spindump -oslog -i /private/var/tmp/IN_PROGRESS_sysdiagnose_2024.04.11_12-31-56+0100_macOS_MacBookPro16-3_23E224.tmp/spindump/spindump-nosymbols.txt -inspectLiveSystem -file /private/var/tmp/IN_PROGRESS_sysdiagnose_2024.04.11_12-31-56+0100_macOS_MacBookPro16-3_23E224.tmp/spindump/spindump.txt","exited with status 0",29.372028,50.000000,73.656250
+
+
+Concurrent group with total timeout 35.000000 sec
+"/usr/bin/log config --status","exited with status 0",0.037708,35.000000,1.320312
+"/bin/ls -lRsh /private/var/db/diagnostics","exited with status 0",0.141254,35.000000,0.925781
+"/bin/ls -lRsh /private/var/db/uuidtext","exited with status 0",0.219587,35.000000,0.878906
+
