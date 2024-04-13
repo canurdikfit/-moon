@@ -23,28 +23,28 @@ function Space(props) {
       {/* <ScrollControls pages={4} damping={0.1}> */}
       <motion.mesh
         position={[0, 0, 0]}
-        scale={10}
+        scale={1}
         ref={starMovement}
         animate={{
           scale: 0.14,
         }}
         transition={{
           duration: 5,
-          delay: 4,
+          delay: 3,
           ease: "easeInOut",
         }}
       >
         <Stars
-          radius={2}
+          radius={3}
           depth={3}
-          count={1500}
-          factor={0.3}
+          count={2000}
+          factor={0.4}
           saturation={0}
           fade={true}
         />
       </motion.mesh>
       <motion.group
-        scale={0}
+        scale={10}
         animate={{
           scale: 1,
         }}
