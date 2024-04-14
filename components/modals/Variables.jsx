@@ -9,7 +9,7 @@ import React, { useRef } from "react";
 // import { motion } from "framer-motion-3d";
 
 function Variables() {
-  // const moonOrbit = useRef(null);
+  // const moonOrbit = useRef(null)
   const bgStar = useRef(null);
   // const colorMapTexture = useTexture("/8k_moon.jpg");
   useFrame((state, delta) => {
