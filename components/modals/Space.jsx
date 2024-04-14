@@ -43,7 +43,7 @@ function Space(props) {
         </motion.group>
       </motion.mesh>
       {/* stars swamping to the center */}
-      <motion.mesh
+{/*       <motion.mesh
         position={[0, 0, 0]}
         scale={10}
         animate={{
@@ -65,7 +65,7 @@ function Space(props) {
           saturation={0}
           fade={true}
         />
-      </motion.mesh>
+      </motion.mesh> */}
       {/* Sparkles Effects */}
 
       <motion.mesh
